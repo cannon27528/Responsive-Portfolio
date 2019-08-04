@@ -111,6 +111,7 @@ footer {
 .cont {
   width: 500px;
   height: 25px;
+  padding: 16px;
 }
 .message {
   width: 500px
@@ -133,11 +134,86 @@ footer {
   text-align: center;
   background-color: #4aaaa5;
 }
-@media(max-width: 980px) {
-
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
-@media(max-width:768px){
+.sticky + .cont {
+  padding-top: 102px;
 }
 @media(max-width:640px){
+  .cont {
+    width: 50%;
+  }
+  .header {
+    width: 50%;
+  }
+  .headbox{
+    width: 50%;
+  }
+  .body {
+    width: 50%;
+  }
+  .section {
+    width: 50%;
+  }
+  .body {
+    width: 50%;
+
+  }
+  .p {
+    width: 50%;
+  }
+  
+}
+@media(max-width:768px){
+  .cont {
+    width: 75%;
+  }
+  .header {
+    width: 75%
+  }
+  .headbox{
+    width: 75%
+  }
+  .body {
+    width: 75%;
+  }
+  .section {
+    width: 75%;
+  }
+  .body {
+    width: 75%;
+
+  }
+  .p {
+    width: 75%;
+  }
+  
 
 }
+
+@media screen and (max-width: 980px) {
+  .cont {
+    width: 100%;
+  }
+  .header {
+    width: 100%;
+  }
+  .headbox{
+    width: 100%
+  }
+  .body {
+    width: 100%;
+  }
+  .section {
+    width: 100%;
+  }
+  .body {
+    width: 100%;
+
+  }
+  .p {
+    width: 100%;
+  }

@@ -51,7 +51,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #eeeeee;
-  background: url("https://www.toptal.com/designers/subtlepatterns/patterns/textured_paper.png")
+  background: url("https://www.toptal.com/designers/subtlepatterns/patterns/textured_paper.png");
   
 }
 
@@ -213,7 +213,4 @@ footer {
   .body {
     width: 100%;
 
-  }
-  .p {
-    width: 100%;
   }
